@@ -1,0 +1,70 @@
+.vjs-rent-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #e53637;
+    padding: 14px 40px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: none;
+    font-size: 22px;
+    border-radius: 8px; 
+}
+
+.vjs-rent-button:hover {
+    background-color: #dc6161;
+    color: white;
+}
+
+.vjs-payment-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 60%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.vjs-success-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 35%;
+    color: white;
+    background-color: #212539;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+.vjs-modal-body {
+    color: white;
+    font-size: 15px;
+}
+.vjs-close-button {
+    position: relative;
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #e53637 !important;
+    padding: 14px 40px;
+    border: none;
+    color: white !important;
+    cursor: pointer;
+    display: none;
+    font-size: 22px;
+    border-radius: 8px; 
+}
+.vjs-close-button:hover {
+    background-color: #dc6161;
+    color: white;
+}
